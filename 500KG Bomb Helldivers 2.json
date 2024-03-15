@@ -1,1 +1,369 @@
-{"id":"11a35a2c-d170-45d7-9c9a-bb18630fa174","enabled":true,"name":"500KG Bomb Helldivers 2","panningX":-2583.12817,"panningY":1612.67969,"scaling":0.6038794,"nodes":{"073fd3f4-d513-41b3-ad1b-19135f0b636e":{"id":"073fd3f4-d513-41b3-ad1b-19135f0b636e","dataInputs":{"Text":{"type":"string","value":"\"Connect On Contact Stay to Enter to turn on\""},"Content":{"type":"string","value":"\"Connect On Contact Stay to Enter to turn on\""},"Editing":{"type":"bool","value":"false"}},"typeId":"200ee639-79bc-492c-a14c-a6b64cfcf39d","name":"COMMENT","x":3142.083,"y":-1174.75122},"2b0814dd-eb78-44ea-8393-31c0212d5a51":{"id":"2b0814dd-eb78-44ea-8393-31c0212d5a51","dataInputs":{"Character":{"type":"Warudo.Plugins.Core.Assets.Character.CharacterAsset","value":"{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"},"Expression":{"type":"string","value":"\"500KG\""}},"typeId":"1b7bc604-d224-45ab-b7c0-2afa8dfa1eac","name":"IS_CHARACTER_EXPRESSION_ACTIVE","x":3035.374,"y":219.315475},"70fe1f89-b8d7-475b-95a3-1cdc68e6b080":{"id":"70fe1f89-b8d7-475b-95a3-1cdc68e6b080","dataInputs":{"Visualize":{"type":"bool","value":"false"},"Senders":{"type":"Warudo.Plugins.Interactions.Nodes.ContactSource[]","value":"[{\"id\":\"f9a25a7c-e7c2-454e-a81d-c0bbc701cc92\",\"dataInputs\":{\"IsReceiver\":{\"type\":\"bool\",\"value\":\"false\"},\"SenderApplyTo\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+ApplyToType\",\"value\":\"{\\\"label\\\":\\\"Any Scene Character\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"ReceiverApplyTo\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+ReceiverApplyToType\",\"value\":\"{\\\"label\\\":\\\"Any Scene Character\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"UseAssetColliders\":{\"type\":\"bool\",\"value\":\"false\"},\"AssetCollidersNotEnabledHint\":{\"type\":\"string\",\"value\":\"\\\"The colliders on this asset are not currently enabled.\\\"\"},\"AnySceneCharacterAttachToBone\":{\"type\":\"UnityEngine.HumanBodyBones\",\"value\":\"{\\\"label\\\":\\\"Right Index Distal\\\",\\\"value\\\":44,\\\"description\\\":null,\\\"icon\\\":null}\"},\"SceneAsset\":{\"type\":\"Warudo.Plugins.Core.Assets.GameObjectAsset\",\"value\":null},\"SceneAssetAttachType\":{\"type\":\"Warudo.Plugins.Core.Assets.Mixins.AttachType\",\"value\":\"{\\\"label\\\":\\\"Human Body Bone\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"SceneAssetAttachToBone\":{\"type\":\"UnityEngine.HumanBodyBones\",\"value\":\"{\\\"label\\\":\\\"Head\\\",\\\"value\\\":10,\\\"description\\\":null,\\\"icon\\\":null}\"},\"SceneAssetAttachToBoneDoesNotExist\":{\"type\":\"string\",\"value\":\"\\\"This bone does not exist on the character.\\\"\"},\"SceneAssetAttachToTransform\":{\"type\":\"string\",\"value\":null},\"PositionOffset\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"RotationOffset\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"ColliderType\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+SourceColliderType\",\"value\":\"{\\\"label\\\":\\\"Sphere\\\",\\\"value\\\":2,\\\"description\\\":null,\\\"icon\\\":null}\"},\"ColliderCenter\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"ColliderSize\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.1,\\\"y\\\":0.1,\\\"z\\\":0.1}\"},\"ColliderRadius\":{\"type\":\"float\",\"value\":\"0.015\"},\"ColliderHeight\":{\"type\":\"float\",\"value\":\"0.2\"},\"ColliderDirection\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+SourceColliderDirection\",\"value\":\"{\\\"label\\\":\\\"X\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"}}}]"},"Receivers":{"type":"Warudo.Plugins.Interactions.Nodes.ContactSource[]","value":"[{\"id\":\"abeaa7b6-c460-469f-a81f-d124fe266c0a\",\"dataInputs\":{\"IsReceiver\":{\"type\":\"bool\",\"value\":\"true\"},\"SenderApplyTo\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+ApplyToType\",\"value\":\"{\\\"label\\\":\\\"Any Scene Character\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"ReceiverApplyTo\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+ReceiverApplyToType\",\"value\":\"{\\\"label\\\":\\\"Any Scene Character\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"UseAssetColliders\":{\"type\":\"bool\",\"value\":\"false\"},\"AssetCollidersNotEnabledHint\":{\"type\":\"string\",\"value\":\"\\\"The colliders on this asset are not currently enabled.\\\"\"},\"AnySceneCharacterAttachToBone\":{\"type\":\"UnityEngine.HumanBodyBones\",\"value\":\"{\\\"label\\\":\\\"Right Hand\\\",\\\"value\\\":18,\\\"description\\\":null,\\\"icon\\\":null}\"},\"SceneAsset\":{\"type\":\"Warudo.Plugins.Core.Assets.GameObjectAsset\",\"value\":null},\"SceneAssetAttachType\":{\"type\":\"Warudo.Plugins.Core.Assets.Mixins.AttachType\",\"value\":\"{\\\"label\\\":\\\"Human Body Bone\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"SceneAssetAttachToBone\":{\"type\":\"UnityEngine.HumanBodyBones\",\"value\":\"{\\\"label\\\":\\\"Head\\\",\\\"value\\\":10,\\\"description\\\":null,\\\"icon\\\":null}\"},\"SceneAssetAttachToBoneDoesNotExist\":{\"type\":\"string\",\"value\":\"\\\"This bone does not exist on the character.\\\"\"},\"SceneAssetAttachToTransform\":{\"type\":\"string\",\"value\":null},\"PositionOffset\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.03,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"RotationOffset\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"ColliderType\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+SourceColliderType\",\"value\":\"{\\\"label\\\":\\\"Sphere\\\",\\\"value\\\":2,\\\"description\\\":null,\\\"icon\\\":null}\"},\"ColliderCenter\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"ColliderSize\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.1,\\\"y\\\":0.1,\\\"z\\\":0.1}\"},\"ColliderRadius\":{\"type\":\"float\",\"value\":\"0.044\"},\"ColliderHeight\":{\"type\":\"float\",\"value\":\"0.2\"},\"ColliderDirection\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+SourceColliderDirection\",\"value\":\"{\\\"label\\\":\\\"X\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"}}}]"}},"typeId":"a4c75971-412a-4e54-80ef-fe31adf33c7c","name":"ON_CONTACT","x":2786.69238,"y":-1079.76526},"1847fca6-147f-428b-bdd3-5be79489cb55":{"id":"1847fca6-147f-428b-bdd3-5be79489cb55","dataInputs":{"Character":{"type":"Warudo.Plugins.Core.Assets.Character.CharacterAsset","value":"{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"},"Expression":{"type":"string","value":"\"500KG\""},"IsTransient":{"type":"bool","value":"false"},"Action":{"type":"Warudo.Core.Data.ToggleAction","value":"{\"label\":\"Disable\",\"value\":2,\"description\":null,\"icon\":null}"}},"typeId":"527c264c-3e95-416d-abdf-a2a20d18c095","name":"TOGGLE_CHARACTER_EXPRESSION","x":3811.00024,"y":-1175.17847},"51ec15ec-eb95-415a-a072-3d5953012104":{"id":"51ec15ec-eb95-415a-a072-3d5953012104","dataInputs":{"Source":{"type":"string","value":"\"sound://data/Sounds/helldivers.mp3\""},"Delay":{"type":"float","value":"0.0"},"Volume":{"type":"float","value":"0.03"},"Trim":{"type":"bool","value":"true"},"TrimStart":{"type":"float","value":"6.0"},"TrimEnd":{"type":"float","value":"40.0"},"FadeIn":{"type":"bool","value":"false"},"FadeInDuration":{"type":"float","value":"0.5"},"FadeOut":{"type":"bool","value":"false"},"FadeOutDuration":{"type":"float","value":"0.5"}},"typeId":"b8d8e162-6b51-4889-bf42-d7bc6f430b85","name":"PLAY_SOUND","x":4642.87646,"y":-618.8467},"febf3b17-5d4a-4474-b286-620c20c1736f":{"id":"febf3b17-5d4a-4474-b286-620c20c1736f","dataInputs":{"Condition":{"type":"bool","value":"true"}},"typeId":"1b58a074-3c70-412e-ace4-0f12c3f7f16b","name":"IF_BRANCH","x":3397.232,"y":-949.764954},"b9096bef-cb94-4c47-9048-441047385383":{"id":"b9096bef-cb94-4c47-9048-441047385383","dataInputs":{"Character":{"type":"Warudo.Plugins.Core.Assets.Character.CharacterAsset","value":"{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"},"Expression":{"type":"string","value":"\"Joy\""},"IsTransient":{"type":"bool","value":"false"},"Action":{"type":"Warudo.Core.Data.ToggleAction","value":"{\"label\":\"Disable\",\"value\":2,\"description\":null,\"icon\":null}"}},"typeId":"527c264c-3e95-416d-abdf-a2a20d18c095","name":"TOGGLE_CHARACTER_EXPRESSION","x":4152.42139,"y":-1212.50439},"84795cc8-3a51-40a5-a2b0-bce984968453":{"id":"84795cc8-3a51-40a5-a2b0-bce984968453","dataInputs":{"ParticleSource":{"type":"string","value":"\"gameobject://resources/Particles/Ultimate Impact Fx/Resources/Prefabs/GrPower_Impact_Fire_02\""},"PositionOffset":{"type":"UnityEngine.Vector3","value":"{\"x\":0.0,\"y\":0.0,\"z\":-4.0}"},"RotationOffset":{"type":"UnityEngine.Vector3","value":"{\"x\":0.0,\"y\":0.0,\"z\":0.0}"},"ParticleScale":{"type":"float","value":"5.0"},"Delay":{"type":"float","value":"3.0"},"Parent":{"type":"Warudo.Plugins.Core.Assets.GameObjectAsset","value":"{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"},"AttachType":{"type":"Warudo.Plugins.Core.Assets.Mixins.AttachType","value":"{\"label\":\"Transform Path\",\"value\":1,\"description\":null,\"icon\":null}"},"AttachToBone":{"type":"UnityEngine.HumanBodyBones","value":"{\"label\":\"Head\",\"value\":10,\"description\":null,\"icon\":null}"},"AttachToBoneDoesNotExist":{"type":"string","value":"\"This bone does not exist on the character.\""},"AttachToTransform":{"type":"string","value":"\"Root\""}},"typeId":"c2b4da85-620a-43bf-ac16-193e44d0ed9d","name":"SPAWN_PARTICLE","x":4973.302,"y":-706.260559},"b8c580b6-53dd-4cbe-b601-e1727826b63a":{"id":"b8c580b6-53dd-4cbe-b601-e1727826b63a","dataInputs":{"Character":{"type":"Warudo.Plugins.Core.Assets.Character.CharacterAsset","value":"{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"},"Expression":{"type":"string","value":"\"500KG\""}},"typeId":"1b7bc604-d224-45ab-b7c0-2afa8dfa1eac","name":"IS_CHARACTER_EXPRESSION_ACTIVE","x":3024.23682,"y":-162.032227},"57ebb99c-f9b1-4cb6-a34b-c265b4d64b79":{"id":"57ebb99c-f9b1-4cb6-a34b-c265b4d64b79","dataInputs":{"A":{"type":"bool","value":"false"},"B":{"type":"bool","value":"false"}},"typeId":"0e6949cd-6e8b-419c-a411-b6f4a1c730cf","name":"BOOLEAN_AND","x":3303.984,"y":-45.1193771},"b6899b6c-9583-4d0f-8d8e-9433d5179768":{"id":"b6899b6c-9583-4d0f-8d8e-9433d5179768","dataInputs":{"A":{"type":"object","value":null},"Text":{"type":"string","value":"\"false\""}},"typeId":"1ffd42b4-97a7-4640-a519-d841a8040cb6","name":"INSPECT_VALUE","x":3638.007,"y":-43.7276268},"bcaa5ee9-31d1-437c-a5f2-1af80485dc2b":{"id":"bcaa5ee9-31d1-437c-a5f2-1af80485dc2b","dataInputs":{"Character":{"type":"Warudo.Plugins.Core.Assets.Character.CharacterAsset","value":"{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"},"Expression":{"type":"string","value":"\"500KG\""},"IsTransient":{"type":"bool","value":"false"},"Action":{"type":"Warudo.Core.Data.ToggleAction","value":"{\"label\":\"Enable\",\"value\":1,\"description\":null,\"icon\":null}"}},"typeId":"527c264c-3e95-416d-abdf-a2a20d18c095","name":"TOGGLE_CHARACTER_EXPRESSION","x":3942.80127,"y":-381.92218},"03d820b9-bbbf-4fbe-8382-6535c736b555":{"id":"03d820b9-bbbf-4fbe-8382-6535c736b555","dataInputs":{"Character":{"type":"Warudo.Plugins.Core.Assets.Character.CharacterAsset","value":"{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"},"Expression":{"type":"string","value":"\"Joy\""},"IsTransient":{"type":"bool","value":"false"},"Action":{"type":"Warudo.Core.Data.ToggleAction","value":"{\"label\":\"Enable\",\"value\":1,\"description\":null,\"icon\":null}"}},"typeId":"527c264c-3e95-416d-abdf-a2a20d18c095","name":"TOGGLE_CHARACTER_EXPRESSION","x":4275.432,"y":-372.179871},"62c10ef8-3bb9-4728-924f-105874c05936":{"id":"62c10ef8-3bb9-4728-924f-105874c05936","dataInputs":{"Light":{"type":"Warudo.Plugins.Core.Assets.Environment.LightAsset","value":"{\"id\":\"44cbce51-9270-493a-b456-15fdee236829\",\"name\":\"Directional Light\"}"},"Intensity":{"type":"float","value":"1.0"}},"typeId":"42fe10e1-dbc8-4ed4-a058-b8bc61d325e3","name":"SET_LIGHT_INTENSITY","x":5491.55566,"y":-753.4521},"21ae2a62-f35f-4cee-8cb8-b53eb494769e":{"id":"21ae2a62-f35f-4cee-8cb8-b53eb494769e","dataInputs":{"Light":{"type":"Warudo.Plugins.Core.Assets.Environment.LightAsset","value":"{\"id\":\"44cbce51-9270-493a-b456-15fdee236829\",\"name\":\"Directional Light\"}"},"Intensity":{"type":"float","value":"0.0"}},"typeId":"42fe10e1-dbc8-4ed4-a058-b8bc61d325e3","name":"SET_LIGHT_INTENSITY","x":4565.30273,"y":-1152.3634},"09f300ab-023c-4497-b129-124999457223":{"id":"09f300ab-023c-4497-b129-124999457223","dataInputs":{"Delay":{"type":"float","value":"3.0"}},"typeId":"6ffd61d7-01bc-4870-a8d5-02027705f4b9","name":"DELAY_CONTROL_FLOW","x":5236.6416,"y":-747.614258}},"dataConnections":[{"outputNode":"57ebb99c-f9b1-4cb6-a34b-c265b4d64b79","inputNode":"febf3b17-5d4a-4474-b286-620c20c1736f","outputPort":"Result","inputPort":"Condition"},{"outputNode":"b8c580b6-53dd-4cbe-b601-e1727826b63a","inputNode":"57ebb99c-f9b1-4cb6-a34b-c265b4d64b79","outputPort":"Value","inputPort":"A"},{"outputNode":"2b0814dd-eb78-44ea-8393-31c0212d5a51","inputNode":"57ebb99c-f9b1-4cb6-a34b-c265b4d64b79","outputPort":"Value","inputPort":"B"},{"outputNode":"57ebb99c-f9b1-4cb6-a34b-c265b4d64b79","inputNode":"b6899b6c-9583-4d0f-8d8e-9433d5179768","outputPort":"Result","inputPort":"A"}],"flowConnections":[{"outputNode":"03d820b9-bbbf-4fbe-8382-6535c736b555","inputNode":"51ec15ec-eb95-415a-a072-3d5953012104","outputPort":"Exit","inputPort":"Enter"},{"outputNode":"1847fca6-147f-428b-bdd3-5be79489cb55","inputNode":"b9096bef-cb94-4c47-9048-441047385383","outputPort":"Exit","inputPort":"Enter"},{"outputNode":"bcaa5ee9-31d1-437c-a5f2-1af80485dc2b","inputNode":"03d820b9-bbbf-4fbe-8382-6535c736b555","outputPort":"Exit","inputPort":"Enter"},{"outputNode":"febf3b17-5d4a-4474-b286-620c20c1736f","inputNode":"1847fca6-147f-428b-bdd3-5be79489cb55","outputPort":"IfTrue","inputPort":"Enter"},{"outputNode":"febf3b17-5d4a-4474-b286-620c20c1736f","inputNode":"bcaa5ee9-31d1-437c-a5f2-1af80485dc2b","outputPort":"IfFalse","inputPort":"Enter"},{"outputNode":"51ec15ec-eb95-415a-a072-3d5953012104","inputNode":"84795cc8-3a51-40a5-a2b0-bce984968453","outputPort":"Exit","inputPort":"Enter"},{"outputNode":"84795cc8-3a51-40a5-a2b0-bce984968453","inputNode":"09f300ab-023c-4497-b129-124999457223","outputPort":"Exit","inputPort":"Enter"},{"outputNode":"b9096bef-cb94-4c47-9048-441047385383","inputNode":"21ae2a62-f35f-4cee-8cb8-b53eb494769e","outputPort":"Exit","inputPort":"Enter"},{"outputNode":"09f300ab-023c-4497-b129-124999457223","inputNode":"62c10ef8-3bb9-4728-924f-105874c05936","outputPort":"Exit","inputPort":"Enter"}],"properties":{"id":"f23858a9-b066-46eb-bb64-140be9c3925b","dataInputs":{"Variables":{"type":"Warudo.Core.Graphs.GraphVariable[]","value":"[{\"id\":\"28db99ca-f634-44f8-9fbf-0b3ddfd43faa\",\"dataInputs\":{\"Name\":{\"type\":\"string\",\"value\":\"\\\"NewVariable\\\"\"},\"DuplicateNameWarning\":{\"type\":\"string\",\"value\":\"\\\"**A variable with this name already exists.**\\\"\"},\"VariableType\":{\"type\":\"Warudo.Core.Graphs.GraphVariableType\",\"value\":\"{\\\"label\\\":\\\"Boolean\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"BooleanValue\":{\"type\":\"bool\",\"value\":\"false\"},\"IntegerValue\":{\"type\":\"int\",\"value\":\"0\"},\"FloatValue\":{\"type\":\"float\",\"value\":\"0.0\"},\"StringValue\":{\"type\":\"string\",\"value\":null},\"Vector3Value\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"BooleanListValue\":{\"type\":\"bool[]\",\"value\":\"[]\"},\"IntegerListValue\":{\"type\":\"int[]\",\"value\":\"[]\"},\"FloatListValue\":{\"type\":\"float[]\",\"value\":\"[]\"},\"StringListValue\":{\"type\":\"string[]\",\"value\":\"[]\"},\"Vector3ListValue\":{\"type\":\"UnityEngine.Vector3[]\",\"value\":\"[]\"}}}]"}}}}
+{
+  "id": "11a35a2c-d170-45d7-9c9a-bb18630fa174",
+  "enabled": true,
+  "name": "500KG Bomb Helldivers 2",
+  "panningX": -2583.12817,
+  "panningY": 1612.67969,
+  "scaling": 0.6038794,
+  "nodes": {
+    "073fd3f4-d513-41b3-ad1b-19135f0b636e": {
+      "id": "073fd3f4-d513-41b3-ad1b-19135f0b636e",
+      "dataInputs": {
+        "Text": {
+          "type": "string",
+          "value": "\"Connect On Contact Stay to Enter to turn on\""
+        },
+        "Content": {
+          "type": "string",
+          "value": "\"Connect On Contact Stay to Enter to turn on\""
+        },
+        "Editing": { "type": "bool", "value": "false" }
+      },
+      "typeId": "200ee639-79bc-492c-a14c-a6b64cfcf39d",
+      "name": "COMMENT",
+      "x": 3142.083,
+      "y": -1174.75122
+    },
+    "2b0814dd-eb78-44ea-8393-31c0212d5a51": {
+      "id": "2b0814dd-eb78-44ea-8393-31c0212d5a51",
+      "dataInputs": {
+        "Character": {
+          "type": "Warudo.Plugins.Core.Assets.Character.CharacterAsset",
+          "value": "{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"
+        },
+        "Expression": { "type": "string", "value": "\"500KG\"" }
+      },
+      "typeId": "1b7bc604-d224-45ab-b7c0-2afa8dfa1eac",
+      "name": "IS_CHARACTER_EXPRESSION_ACTIVE",
+      "x": 3035.374,
+      "y": 219.315475
+    },
+    "70fe1f89-b8d7-475b-95a3-1cdc68e6b080": {
+      "id": "70fe1f89-b8d7-475b-95a3-1cdc68e6b080",
+      "dataInputs": {
+        "Visualize": { "type": "bool", "value": "false" },
+        "Senders": {
+          "type": "Warudo.Plugins.Interactions.Nodes.ContactSource[]",
+          "value": "[{\"id\":\"f9a25a7c-e7c2-454e-a81d-c0bbc701cc92\",\"dataInputs\":{\"IsReceiver\":{\"type\":\"bool\",\"value\":\"false\"},\"SenderApplyTo\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+ApplyToType\",\"value\":\"{\\\"label\\\":\\\"Any Scene Character\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"ReceiverApplyTo\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+ReceiverApplyToType\",\"value\":\"{\\\"label\\\":\\\"Any Scene Character\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"UseAssetColliders\":{\"type\":\"bool\",\"value\":\"false\"},\"AssetCollidersNotEnabledHint\":{\"type\":\"string\",\"value\":\"\\\"The colliders on this asset are not currently enabled.\\\"\"},\"AnySceneCharacterAttachToBone\":{\"type\":\"UnityEngine.HumanBodyBones\",\"value\":\"{\\\"label\\\":\\\"Right Index Distal\\\",\\\"value\\\":44,\\\"description\\\":null,\\\"icon\\\":null}\"},\"SceneAsset\":{\"type\":\"Warudo.Plugins.Core.Assets.GameObjectAsset\",\"value\":null},\"SceneAssetAttachType\":{\"type\":\"Warudo.Plugins.Core.Assets.Mixins.AttachType\",\"value\":\"{\\\"label\\\":\\\"Human Body Bone\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"SceneAssetAttachToBone\":{\"type\":\"UnityEngine.HumanBodyBones\",\"value\":\"{\\\"label\\\":\\\"Head\\\",\\\"value\\\":10,\\\"description\\\":null,\\\"icon\\\":null}\"},\"SceneAssetAttachToBoneDoesNotExist\":{\"type\":\"string\",\"value\":\"\\\"This bone does not exist on the character.\\\"\"},\"SceneAssetAttachToTransform\":{\"type\":\"string\",\"value\":null},\"PositionOffset\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"RotationOffset\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"ColliderType\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+SourceColliderType\",\"value\":\"{\\\"label\\\":\\\"Sphere\\\",\\\"value\\\":2,\\\"description\\\":null,\\\"icon\\\":null}\"},\"ColliderCenter\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"ColliderSize\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.1,\\\"y\\\":0.1,\\\"z\\\":0.1}\"},\"ColliderRadius\":{\"type\":\"float\",\"value\":\"0.015\"},\"ColliderHeight\":{\"type\":\"float\",\"value\":\"0.2\"},\"ColliderDirection\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+SourceColliderDirection\",\"value\":\"{\\\"label\\\":\\\"X\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"}}}]"
+        },
+        "Receivers": {
+          "type": "Warudo.Plugins.Interactions.Nodes.ContactSource[]",
+          "value": "[{\"id\":\"abeaa7b6-c460-469f-a81f-d124fe266c0a\",\"dataInputs\":{\"IsReceiver\":{\"type\":\"bool\",\"value\":\"true\"},\"SenderApplyTo\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+ApplyToType\",\"value\":\"{\\\"label\\\":\\\"Any Scene Character\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"ReceiverApplyTo\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+ReceiverApplyToType\",\"value\":\"{\\\"label\\\":\\\"Any Scene Character\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"UseAssetColliders\":{\"type\":\"bool\",\"value\":\"false\"},\"AssetCollidersNotEnabledHint\":{\"type\":\"string\",\"value\":\"\\\"The colliders on this asset are not currently enabled.\\\"\"},\"AnySceneCharacterAttachToBone\":{\"type\":\"UnityEngine.HumanBodyBones\",\"value\":\"{\\\"label\\\":\\\"Right Hand\\\",\\\"value\\\":18,\\\"description\\\":null,\\\"icon\\\":null}\"},\"SceneAsset\":{\"type\":\"Warudo.Plugins.Core.Assets.GameObjectAsset\",\"value\":null},\"SceneAssetAttachType\":{\"type\":\"Warudo.Plugins.Core.Assets.Mixins.AttachType\",\"value\":\"{\\\"label\\\":\\\"Human Body Bone\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"SceneAssetAttachToBone\":{\"type\":\"UnityEngine.HumanBodyBones\",\"value\":\"{\\\"label\\\":\\\"Head\\\",\\\"value\\\":10,\\\"description\\\":null,\\\"icon\\\":null}\"},\"SceneAssetAttachToBoneDoesNotExist\":{\"type\":\"string\",\"value\":\"\\\"This bone does not exist on the character.\\\"\"},\"SceneAssetAttachToTransform\":{\"type\":\"string\",\"value\":null},\"PositionOffset\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.03,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"RotationOffset\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"ColliderType\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+SourceColliderType\",\"value\":\"{\\\"label\\\":\\\"Sphere\\\",\\\"value\\\":2,\\\"description\\\":null,\\\"icon\\\":null}\"},\"ColliderCenter\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"ColliderSize\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.1,\\\"y\\\":0.1,\\\"z\\\":0.1}\"},\"ColliderRadius\":{\"type\":\"float\",\"value\":\"0.044\"},\"ColliderHeight\":{\"type\":\"float\",\"value\":\"0.2\"},\"ColliderDirection\":{\"type\":\"Warudo.Plugins.Interactions.Nodes.ContactSource+SourceColliderDirection\",\"value\":\"{\\\"label\\\":\\\"X\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"}}}]"
+        }
+      },
+      "typeId": "a4c75971-412a-4e54-80ef-fe31adf33c7c",
+      "name": "ON_CONTACT",
+      "x": 2786.69238,
+      "y": -1079.76526
+    },
+    "1847fca6-147f-428b-bdd3-5be79489cb55": {
+      "id": "1847fca6-147f-428b-bdd3-5be79489cb55",
+      "dataInputs": {
+        "Character": {
+          "type": "Warudo.Plugins.Core.Assets.Character.CharacterAsset",
+          "value": "{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"
+        },
+        "Expression": { "type": "string", "value": "\"500KG\"" },
+        "IsTransient": { "type": "bool", "value": "false" },
+        "Action": {
+          "type": "Warudo.Core.Data.ToggleAction",
+          "value": "{\"label\":\"Disable\",\"value\":2,\"description\":null,\"icon\":null}"
+        }
+      },
+      "typeId": "527c264c-3e95-416d-abdf-a2a20d18c095",
+      "name": "TOGGLE_CHARACTER_EXPRESSION",
+      "x": 3811.00024,
+      "y": -1175.17847
+    },
+    "51ec15ec-eb95-415a-a072-3d5953012104": {
+      "id": "51ec15ec-eb95-415a-a072-3d5953012104",
+      "dataInputs": {
+        "Source": {
+          "type": "string",
+          "value": "\"sound://data/Sounds/helldivers.mp3\""
+        },
+        "Delay": { "type": "float", "value": "0.0" },
+        "Volume": { "type": "float", "value": "0.03" },
+        "Trim": { "type": "bool", "value": "true" },
+        "TrimStart": { "type": "float", "value": "6.0" },
+        "TrimEnd": { "type": "float", "value": "40.0" },
+        "FadeIn": { "type": "bool", "value": "false" },
+        "FadeInDuration": { "type": "float", "value": "0.5" },
+        "FadeOut": { "type": "bool", "value": "false" },
+        "FadeOutDuration": { "type": "float", "value": "0.5" }
+      },
+      "typeId": "b8d8e162-6b51-4889-bf42-d7bc6f430b85",
+      "name": "PLAY_SOUND",
+      "x": 4642.87646,
+      "y": -618.8467
+    },
+    "febf3b17-5d4a-4474-b286-620c20c1736f": {
+      "id": "febf3b17-5d4a-4474-b286-620c20c1736f",
+      "dataInputs": { "Condition": { "type": "bool", "value": "true" } },
+      "typeId": "1b58a074-3c70-412e-ace4-0f12c3f7f16b",
+      "name": "IF_BRANCH",
+      "x": 3397.232,
+      "y": -949.764954
+    },
+    "b9096bef-cb94-4c47-9048-441047385383": {
+      "id": "b9096bef-cb94-4c47-9048-441047385383",
+      "dataInputs": {
+        "Character": {
+          "type": "Warudo.Plugins.Core.Assets.Character.CharacterAsset",
+          "value": "{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"
+        },
+        "Expression": { "type": "string", "value": "\"Joy\"" },
+        "IsTransient": { "type": "bool", "value": "false" },
+        "Action": {
+          "type": "Warudo.Core.Data.ToggleAction",
+          "value": "{\"label\":\"Disable\",\"value\":2,\"description\":null,\"icon\":null}"
+        }
+      },
+      "typeId": "527c264c-3e95-416d-abdf-a2a20d18c095",
+      "name": "TOGGLE_CHARACTER_EXPRESSION",
+      "x": 4152.42139,
+      "y": -1212.50439
+    },
+    "84795cc8-3a51-40a5-a2b0-bce984968453": {
+      "id": "84795cc8-3a51-40a5-a2b0-bce984968453",
+      "dataInputs": {
+        "ParticleSource": {
+          "type": "string",
+          "value": "\"gameobject://resources/Particles/Ultimate Impact Fx/Resources/Prefabs/GrPower_Impact_Fire_02\""
+        },
+        "PositionOffset": {
+          "type": "UnityEngine.Vector3",
+          "value": "{\"x\":0.0,\"y\":0.0,\"z\":-4.0}"
+        },
+        "RotationOffset": {
+          "type": "UnityEngine.Vector3",
+          "value": "{\"x\":0.0,\"y\":0.0,\"z\":0.0}"
+        },
+        "ParticleScale": { "type": "float", "value": "5.0" },
+        "Delay": { "type": "float", "value": "3.0" },
+        "Parent": {
+          "type": "Warudo.Plugins.Core.Assets.GameObjectAsset",
+          "value": "{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"
+        },
+        "AttachType": {
+          "type": "Warudo.Plugins.Core.Assets.Mixins.AttachType",
+          "value": "{\"label\":\"Transform Path\",\"value\":1,\"description\":null,\"icon\":null}"
+        },
+        "AttachToBone": {
+          "type": "UnityEngine.HumanBodyBones",
+          "value": "{\"label\":\"Head\",\"value\":10,\"description\":null,\"icon\":null}"
+        },
+        "AttachToBoneDoesNotExist": {
+          "type": "string",
+          "value": "\"This bone does not exist on the character.\""
+        },
+        "AttachToTransform": { "type": "string", "value": "\"Root\"" }
+      },
+      "typeId": "c2b4da85-620a-43bf-ac16-193e44d0ed9d",
+      "name": "SPAWN_PARTICLE",
+      "x": 4973.302,
+      "y": -706.260559
+    },
+    "b8c580b6-53dd-4cbe-b601-e1727826b63a": {
+      "id": "b8c580b6-53dd-4cbe-b601-e1727826b63a",
+      "dataInputs": {
+        "Character": {
+          "type": "Warudo.Plugins.Core.Assets.Character.CharacterAsset",
+          "value": "{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"
+        },
+        "Expression": { "type": "string", "value": "\"500KG\"" }
+      },
+      "typeId": "1b7bc604-d224-45ab-b7c0-2afa8dfa1eac",
+      "name": "IS_CHARACTER_EXPRESSION_ACTIVE",
+      "x": 3024.23682,
+      "y": -162.032227
+    },
+    "57ebb99c-f9b1-4cb6-a34b-c265b4d64b79": {
+      "id": "57ebb99c-f9b1-4cb6-a34b-c265b4d64b79",
+      "dataInputs": {
+        "A": { "type": "bool", "value": "false" },
+        "B": { "type": "bool", "value": "false" }
+      },
+      "typeId": "0e6949cd-6e8b-419c-a411-b6f4a1c730cf",
+      "name": "BOOLEAN_AND",
+      "x": 3303.984,
+      "y": -45.1193771
+    },
+    "b6899b6c-9583-4d0f-8d8e-9433d5179768": {
+      "id": "b6899b6c-9583-4d0f-8d8e-9433d5179768",
+      "dataInputs": {
+        "A": { "type": "object", "value": null },
+        "Text": { "type": "string", "value": "\"false\"" }
+      },
+      "typeId": "1ffd42b4-97a7-4640-a519-d841a8040cb6",
+      "name": "INSPECT_VALUE",
+      "x": 3638.007,
+      "y": -43.7276268
+    },
+    "bcaa5ee9-31d1-437c-a5f2-1af80485dc2b": {
+      "id": "bcaa5ee9-31d1-437c-a5f2-1af80485dc2b",
+      "dataInputs": {
+        "Character": {
+          "type": "Warudo.Plugins.Core.Assets.Character.CharacterAsset",
+          "value": "{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"
+        },
+        "Expression": { "type": "string", "value": "\"500KG\"" },
+        "IsTransient": { "type": "bool", "value": "false" },
+        "Action": {
+          "type": "Warudo.Core.Data.ToggleAction",
+          "value": "{\"label\":\"Enable\",\"value\":1,\"description\":null,\"icon\":null}"
+        }
+      },
+      "typeId": "527c264c-3e95-416d-abdf-a2a20d18c095",
+      "name": "TOGGLE_CHARACTER_EXPRESSION",
+      "x": 3942.80127,
+      "y": -381.92218
+    },
+    "03d820b9-bbbf-4fbe-8382-6535c736b555": {
+      "id": "03d820b9-bbbf-4fbe-8382-6535c736b555",
+      "dataInputs": {
+        "Character": {
+          "type": "Warudo.Plugins.Core.Assets.Character.CharacterAsset",
+          "value": "{\"id\":\"29399e49-1c26-41bb-b40f-294dc0590f68\",\"name\":\"Character\"}"
+        },
+        "Expression": { "type": "string", "value": "\"Joy\"" },
+        "IsTransient": { "type": "bool", "value": "false" },
+        "Action": {
+          "type": "Warudo.Core.Data.ToggleAction",
+          "value": "{\"label\":\"Enable\",\"value\":1,\"description\":null,\"icon\":null}"
+        }
+      },
+      "typeId": "527c264c-3e95-416d-abdf-a2a20d18c095",
+      "name": "TOGGLE_CHARACTER_EXPRESSION",
+      "x": 4275.432,
+      "y": -372.179871
+    },
+    "62c10ef8-3bb9-4728-924f-105874c05936": {
+      "id": "62c10ef8-3bb9-4728-924f-105874c05936",
+      "dataInputs": {
+        "Light": {
+          "type": "Warudo.Plugins.Core.Assets.Environment.LightAsset",
+          "value": "{\"id\":\"44cbce51-9270-493a-b456-15fdee236829\",\"name\":\"Directional Light\"}"
+        },
+        "Intensity": { "type": "float", "value": "1.0" }
+      },
+      "typeId": "42fe10e1-dbc8-4ed4-a058-b8bc61d325e3",
+      "name": "SET_LIGHT_INTENSITY",
+      "x": 5491.55566,
+      "y": -753.4521
+    },
+    "21ae2a62-f35f-4cee-8cb8-b53eb494769e": {
+      "id": "21ae2a62-f35f-4cee-8cb8-b53eb494769e",
+      "dataInputs": {
+        "Light": {
+          "type": "Warudo.Plugins.Core.Assets.Environment.LightAsset",
+          "value": "{\"id\":\"44cbce51-9270-493a-b456-15fdee236829\",\"name\":\"Directional Light\"}"
+        },
+        "Intensity": { "type": "float", "value": "0.0" }
+      },
+      "typeId": "42fe10e1-dbc8-4ed4-a058-b8bc61d325e3",
+      "name": "SET_LIGHT_INTENSITY",
+      "x": 4565.30273,
+      "y": -1152.3634
+    },
+    "09f300ab-023c-4497-b129-124999457223": {
+      "id": "09f300ab-023c-4497-b129-124999457223",
+      "dataInputs": { "Delay": { "type": "float", "value": "3.0" } },
+      "typeId": "6ffd61d7-01bc-4870-a8d5-02027705f4b9",
+      "name": "DELAY_CONTROL_FLOW",
+      "x": 5236.6416,
+      "y": -747.614258
+    }
+  },
+  "dataConnections": [
+    {
+      "outputNode": "57ebb99c-f9b1-4cb6-a34b-c265b4d64b79",
+      "inputNode": "febf3b17-5d4a-4474-b286-620c20c1736f",
+      "outputPort": "Result",
+      "inputPort": "Condition"
+    },
+    {
+      "outputNode": "b8c580b6-53dd-4cbe-b601-e1727826b63a",
+      "inputNode": "57ebb99c-f9b1-4cb6-a34b-c265b4d64b79",
+      "outputPort": "Value",
+      "inputPort": "A"
+    },
+    {
+      "outputNode": "2b0814dd-eb78-44ea-8393-31c0212d5a51",
+      "inputNode": "57ebb99c-f9b1-4cb6-a34b-c265b4d64b79",
+      "outputPort": "Value",
+      "inputPort": "B"
+    },
+    {
+      "outputNode": "57ebb99c-f9b1-4cb6-a34b-c265b4d64b79",
+      "inputNode": "b6899b6c-9583-4d0f-8d8e-9433d5179768",
+      "outputPort": "Result",
+      "inputPort": "A"
+    }
+  ],
+  "flowConnections": [
+    {
+      "outputNode": "03d820b9-bbbf-4fbe-8382-6535c736b555",
+      "inputNode": "51ec15ec-eb95-415a-a072-3d5953012104",
+      "outputPort": "Exit",
+      "inputPort": "Enter"
+    },
+    {
+      "outputNode": "1847fca6-147f-428b-bdd3-5be79489cb55",
+      "inputNode": "b9096bef-cb94-4c47-9048-441047385383",
+      "outputPort": "Exit",
+      "inputPort": "Enter"
+    },
+    {
+      "outputNode": "bcaa5ee9-31d1-437c-a5f2-1af80485dc2b",
+      "inputNode": "03d820b9-bbbf-4fbe-8382-6535c736b555",
+      "outputPort": "Exit",
+      "inputPort": "Enter"
+    },
+    {
+      "outputNode": "febf3b17-5d4a-4474-b286-620c20c1736f",
+      "inputNode": "1847fca6-147f-428b-bdd3-5be79489cb55",
+      "outputPort": "IfTrue",
+      "inputPort": "Enter"
+    },
+    {
+      "outputNode": "febf3b17-5d4a-4474-b286-620c20c1736f",
+      "inputNode": "bcaa5ee9-31d1-437c-a5f2-1af80485dc2b",
+      "outputPort": "IfFalse",
+      "inputPort": "Enter"
+    },
+    {
+      "outputNode": "51ec15ec-eb95-415a-a072-3d5953012104",
+      "inputNode": "84795cc8-3a51-40a5-a2b0-bce984968453",
+      "outputPort": "Exit",
+      "inputPort": "Enter"
+    },
+    {
+      "outputNode": "84795cc8-3a51-40a5-a2b0-bce984968453",
+      "inputNode": "09f300ab-023c-4497-b129-124999457223",
+      "outputPort": "Exit",
+      "inputPort": "Enter"
+    },
+    {
+      "outputNode": "b9096bef-cb94-4c47-9048-441047385383",
+      "inputNode": "21ae2a62-f35f-4cee-8cb8-b53eb494769e",
+      "outputPort": "Exit",
+      "inputPort": "Enter"
+    },
+    {
+      "outputNode": "09f300ab-023c-4497-b129-124999457223",
+      "inputNode": "62c10ef8-3bb9-4728-924f-105874c05936",
+      "outputPort": "Exit",
+      "inputPort": "Enter"
+    }
+  ],
+  "properties": {
+    "id": "f23858a9-b066-46eb-bb64-140be9c3925b",
+    "dataInputs": {
+      "Variables": {
+        "type": "Warudo.Core.Graphs.GraphVariable[]",
+        "value": "[{\"id\":\"28db99ca-f634-44f8-9fbf-0b3ddfd43faa\",\"dataInputs\":{\"Name\":{\"type\":\"string\",\"value\":\"\\\"NewVariable\\\"\"},\"DuplicateNameWarning\":{\"type\":\"string\",\"value\":\"\\\"**A variable with this name already exists.**\\\"\"},\"VariableType\":{\"type\":\"Warudo.Core.Graphs.GraphVariableType\",\"value\":\"{\\\"label\\\":\\\"Boolean\\\",\\\"value\\\":0,\\\"description\\\":null,\\\"icon\\\":null}\"},\"BooleanValue\":{\"type\":\"bool\",\"value\":\"false\"},\"IntegerValue\":{\"type\":\"int\",\"value\":\"0\"},\"FloatValue\":{\"type\":\"float\",\"value\":\"0.0\"},\"StringValue\":{\"type\":\"string\",\"value\":null},\"Vector3Value\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"BooleanListValue\":{\"type\":\"bool[]\",\"value\":\"[]\"},\"IntegerListValue\":{\"type\":\"int[]\",\"value\":\"[]\"},\"FloatListValue\":{\"type\":\"float[]\",\"value\":\"[]\"},\"StringListValue\":{\"type\":\"string[]\",\"value\":\"[]\"},\"Vector3ListValue\":{\"type\":\"UnityEngine.Vector3[]\",\"value\":\"[]\"}}}]"
+      }
+    }
+  }
+}
